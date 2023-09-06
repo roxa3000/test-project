@@ -1,0 +1,239 @@
+body {
+
+    background-color: #efefef;
+    margin: 0px;
+}
+
+.logo {
+    width: 180px;
+    display: flex;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    background-color: white;
+
+}
+
+.logo-font {
+    font-family: 'Shrikhand', sans-serif;
+    color: white;
+}
+
+.steps {
+    position: relative;
+}
+
+.steps-number {
+    font-size: 10pt;
+    position: absolute;
+    left: -10px;
+    top: 37%;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #9356DC;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+}
+
+.location {
+    background-color: rgb(221, 221, 221);
+    padding: 1px;
+    text-align: center;
+    box-shadow: inset rgba(100, 100, 100, 0.2) 0px 16px 8px -10px;
+}
+
+.explore {
+    background-color: #efefef;
+    padding: 30px;
+}
+
+h1 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 18pt;
+    margin-left: 30px;
+}
+
+.nav {
+    text-align: left;
+    padding-top: 15px;
+}
+
+h2 {
+    font-size: 14pt;
+    font-weight: lighter;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: grey;
+}
+
+.button {
+    text-align: center;
+    background-image: linear-gradient(#FF79DA, #9356DC);
+    border-radius: 30px;
+    padding: 15px;
+    width: 225px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button:active {
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.steps {
+    background-color: #efefef;
+    width: 270px;
+    display: flex;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    padding: 30px;
+    font-size: large;
+    border-radius: 30px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+
+
+.fa-solid {
+    margin-right: 10px;
+    color: black
+}
+
+.steps:active,
+.steps:hover {
+    color: #9356DC;
+    background-color: #e1c8ff;
+
+}
+
+.how-it-works {
+    background-color: white;
+    height: 450px;
+    align-items: center;
+
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.rest-h1 {
+    text-align: left;
+}
+
+.rest-img {
+    width: 350px;
+    height: 220px;
+    display: flex;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 18px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.rest {
+    background-color: white;
+    width: 350px;
+    display: flex;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 18px;
+    height: 300px;
+    margin-bottom: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.fa-heart {
+
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 280px;
+    position: absolute;
+    margin-top: 20px;
+    font-size: 20pt;
+
+}
+
+.rest-caption {
+    font-size: 14pt;
+    margin-left: 20px;
+    flex-direction: column;
+    max-width: 100%;
+    display: flex;
+    margin: auto;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.p-caption {
+    color: gray;
+    font-size: 12pt;
+    font-weight: 100;
+    display: flex;
+    display: block;
+    flex-wrap: wrap;
+    display: inline;
+    margin: unset;
+    padding: initial;
+    margin-top: 5px;
+}
+
+.logo-top {
+    background-color: white;
+}
+
+footer {
+    background-color: grey;
+    padding: 20px;
+}
+
+.logo-footer {
+    width: 120px;
+}
+
+.p-footer {
+    color: white;
+}
+
+.fa-handshake-angle {
+    color: white;
+}
+
+.fa-utensils {
+    color: white;
+}
+
+.new {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    background-color: #99E2D0;
+    color: green;
+    width: 68px;
+    height: 20px;
+    text-align: center;
+    position: ;
+    border-radius: 6px;
+}
+
+.container {
+    position: relative;
+}
+
+.bastille {
+    width: 370px;
+
+}
