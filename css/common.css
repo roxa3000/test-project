@@ -7,12 +7,33 @@
     right: 10px;
 }
 
-.heart--icon:active + .heart--gradient{
-    animation: fadeIn 1s linear forwards 1;
+.rest-caption:active .heart--gradient {
+    animation: fadeIn 1s linear forwards 1, fillUp 1s linear forwards;
+
 }
 
 .heart--gradient {
     opacity: 0;
+    transform-origin: bottom center;
+    background-image: linear-gradient(#FF79DA, #9356DC);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent !important;
+}
+
+.logo-font {
+    font-family: 'Shrikhand', sans-serif;
+}
+
+@keyframes fillUp {
+    from {
+        transform: scale(0);
+
+    }
+
+    to {
+        transforM: scale(1);
+    }
 }
 
 
