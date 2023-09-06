@@ -55,7 +55,7 @@
 }
 
 .green-tick-container {
-    background-color: greenyellow;
+    background-color: #99E2D0;
     height: 100%;
     width: 60px;
     display: flex;
@@ -209,4 +209,8 @@ footer {
 
 .fa-utensils {
     color: white;
+}
+
+.rest__heart{
+    margin-left: 180px;
 }
