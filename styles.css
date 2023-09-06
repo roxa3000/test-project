@@ -117,6 +117,14 @@ h2 {
 
 }
 
+.steps:active .steps__icon,
+.steps:hover .steps__icon {
+    color: #9356DC;
+    background-color: #e1c8ff;
+
+}
+
+
 .how-it-works {
     background-color: white;
     height: 450px;
