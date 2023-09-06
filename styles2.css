@@ -187,6 +187,8 @@ header {
 
 .button:active {
     box-shadow: 0 5px 10px rgb(0, 0, 0);
+    background-image: linear-gradient(#ffb5ea, #a760ff);
+
 }
 
 footer {
