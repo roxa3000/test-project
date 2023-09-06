@@ -1,0 +1,27 @@
+.rest {
+    position: relative;
+}
+
+.heart--icon {
+    position: absolute;
+    right: 10px;
+}
+
+.heart--icon:active + .heart--gradient{
+    animation: fadeIn 1s linear forwards 1;
+}
+
+.heart--gradient {
+    opacity: 0;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
