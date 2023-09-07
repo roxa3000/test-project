@@ -215,20 +215,15 @@ footer .logo-font {
 }
 
 #entrees {
-    opacity: 0;
-    animation: fadeIn 4s forwards;
+    animation: fadeIn 4s;
 }
-
-#main-dish {
-    opacity: 0;
-    animation: fadeIn 4s forwards;
-    animation-delay: 0.75s;
+#main-dish{
+    animation: fadeIn 4s;
+    animation-delay: 0.5s;
 }
-
-#desserts {
-    opacity: 0;
-    animation: fadeIn 4s forwards;
-    animation-delay: 1.25s;
+#desserts{
+    animation: fadeIn 4s;
+    animation-delay: 1s;
 }
 
 .p-footer {

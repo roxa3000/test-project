@@ -19,7 +19,7 @@ a {
 
 .fade-in-load {
     z-index: 0;
-    animation: fadeIn 4s;
+    animation: fadeIn 10s;
 }
 
 @keyframes fadeIn {
