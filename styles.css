@@ -269,7 +269,7 @@ footer {
     z-index: 1;
     text-align: center;
     position: relative;
-    animation: fadeIn reverse 5s linear 1 forwards;
+    animation:  reverse 5s linear 1 forwards;
 
 }
 

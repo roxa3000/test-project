@@ -100,6 +100,15 @@
     border-bottom-right-radius: 0;
 }
 
+.menu-2 {
+    background-color: rgb(240, 240, 240);
+    height: 1400px;
+    margin-top: 200px;
+    border-radius: 35px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
 .bastille-img {
     position: absolute;
     width: 100%;
@@ -203,6 +212,8 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 25px 20px;
+    font-family: 'Shrikhand', sans-serif;
+    margin-left: 0;
 }
 
 footer .logo-font {
@@ -246,13 +257,6 @@ footer .logo-font {
     .h2 section-heading {
         text-align: center;
     }
-}
-
-.logo-font2 {
-    color: rgb(0, 0, 0)9, 33, 33);
-    font-size: 15pt;
-    
-
 }
 
 .spinner {
