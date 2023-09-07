@@ -247,3 +247,45 @@ footer .logo-font {
         text-align: center;
     }
 }
+
+.logo-font2 {
+    color: rgb(0, 0, 0)9, 33, 33);
+    font-size: 15pt;
+    
+
+}
+
+.spinner {
+    z-index: 1;
+    text-align: center;
+    position: relative;
+    animation: fadeIn reverse 1s linear 1 forwards;
+
+}
+
+.spinner i {
+    animation: spinner 1s linear infinite;
+    z-index: 1;
+    text-align: center;
+    position: fixed;
+    top: 45%;
+    left: 45%;
+    font-size: 52px;
+
+}
+
+@keyframes spinner {
+    0% {
+        transform: rotate(0deg);
+    }
+
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@media only screen and (max-width: 800px) {
+
+
+}

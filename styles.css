@@ -269,12 +269,12 @@ footer {
     z-index: 1;
     text-align: center;
     position: relative;
-    animation: fadeIn reverse 0.2s linear 1 forwards;
+    animation: fadeIn reverse 5s linear 1 forwards;
 
 }
 
 .spinner i {
-    animation: spinner 0.2s linear infinite;
+    animation: spinner 5s linear infinite;
     z-index: 1;
     text-align: center;
     position: fixed;
@@ -297,7 +297,5 @@ footer {
 
 @media only screen and (max-width: 800px) {
 
-    h1 {
-        text-align: center;
-    }
+
 }

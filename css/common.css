@@ -19,7 +19,7 @@ a {
 
 .fade-in-load {
     z-index: 0;
-    animation: fadeIn 10s;
+    animation: fadeIn 2s;
 }
 
 @keyframes fadeIn {
@@ -55,6 +55,11 @@ a {
     font-family: 'Shrikhand', sans-serif;
 }
 
+.logo-font {
+    font-family: 'Shrikhand', sans-serif;
+    color: black;
+    margin-left: 0;}
+
 @keyframes fillUp {
     from {
         transform: scale(0);
@@ -74,5 +79,35 @@ a {
 
     to {
         opacity: 1;
+    }
+}
+
+.spinner {
+    z-index: 1;
+    text-align: center;
+    position: relative;
+    animation: fadeIn reverse 1s linear 1 forwards;
+
+}
+
+.spinner i {
+    animation: spinner 1s linear infinite;
+    z-index: 1;
+    text-align: center;
+    position: fixed;
+    top: 45%;
+    left: 45%;
+    font-size: 52px;
+
+}
+
+@keyframes spinner {
+    0% {
+        transform: rotate(0deg);
+    }
+
+
+    100% {
+        transform: rotate(360deg);
     }
 }
