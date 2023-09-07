@@ -1,3 +1,5 @@
+@import "./css/common.css";
+
 .logo {
     width: 180px;
     display: flex;
@@ -197,13 +199,36 @@ footer {
     padding: 20px;
 }
 
-.logo-font{ 
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 20px;
+}
+
+footer .logo-font {
     color: white;
-  font-size: 15pt;
+    font-size: 15pt;
 }
 
 .logo-footer {
     width: 120px;
+}
+
+#entrees {
+    opacity: 0;
+    animation: fadeIn 4s forwards;
+}
+
+#main-dish {
+    opacity: 0;
+    animation: fadeIn 4s forwards;
+    animation-delay: 0.75s;
+}
+
+#desserts {
+    opacity: 0;
+    animation: fadeIn 4s forwards;
+    animation-delay: 1.25s;
 }
 
 .p-footer {
@@ -218,10 +243,12 @@ footer {
     color: white;
 }
 
-.rest__heart{
+.rest__heart {
     margin-left: 180px;
 }
 
 @media only screen and (max-width: 800px) {
-   .h2 section-heading { text-align: center;}    
-      }
+    .h2 section-heading {
+        text-align: center;
+    }
+}

@@ -7,6 +7,36 @@
     right: 10px;
 }
 
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.fade-in-load {
+    z-index: 0;
+    animation: fadeIn 4s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.fillup-trigger:active .heart--gradient {
+    animation: fadeIn 1s linear forwards 1, fillUp 1s linear forwards;
+}
+
 .rest-caption:active .heart--gradient {
     animation: fadeIn 1s linear forwards 1, fillUp 1s linear forwards;
 
