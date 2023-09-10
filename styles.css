@@ -269,12 +269,12 @@ footer {
     z-index: 1;
     text-align: center;
     position: relative;
-    animation:  reverse 5s linear 1 forwards;
+    animation: fadeIn reverse 1s linear 1 forwards;
 
 }
 
 .spinner i {
-    animation: spinner 5s linear infinite;
+    animation: spinner 1s linear infinite;
     z-index: 1;
     text-align: center;
     position: fixed;
