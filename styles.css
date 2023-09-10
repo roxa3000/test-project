@@ -41,6 +41,17 @@ body {
     padding: 2px;
 }
 
+.steps:active,
+.steps:hover {
+    color: #9356DC;
+    background-color: #e1c8ff;
+
+}
+
+
+
+:active .steps-number .steps__icon{ }
+
 .location {
     background-color: rgb(221, 221, 221);
     padding: 1px;
@@ -126,22 +137,9 @@ h1 {
 
 .fa-solid {
 
-    color: black
+    
 }
 
-.steps:active,
-.steps:hover {
-    color: #9356DC;
-    background-color: #e1c8ff;
-
-}
-
-.steps:active .steps__icon,
-.steps:hover .steps__icon {
-    color: #9356DC;
-    background-color: #e1c8ff;
-
-}
 
 
 .how-it-works {
