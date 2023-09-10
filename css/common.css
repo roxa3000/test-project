@@ -87,11 +87,12 @@ a {
     text-align: center;
     position: relative;
     animation: fadeIn reverse 1s linear 1 forwards;
+    animation-timeline: 5s;
 
 }
 
 .spinner i {
-    animation: spinner 1s linear infinite;
+    animation: spinner 1s;
     z-index: 1;
     text-align: center;
     position: fixed;
