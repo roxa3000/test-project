@@ -57,15 +57,7 @@ p {
     color: transparent !important;
 }
 
-.logo-font {
-    font-family: 'Shrikhand', sans-serif;
-}
 
-.logo-font {
-    font-family: 'Shrikhand', sans-serif;
-    color: black;
-    margin-left: 0;
-}
 
 @keyframes fillUp {
     from {
@@ -77,7 +69,28 @@ p {
         transforM: scale(1);
     }
 }
+footer {
+    background-color: rgb(53, 53, 53);
+    padding: 20px;
+}
 
+.logo-footer {
+    width: 120px;
+}
+
+.p-footer {
+    color: white;
+    font-size: 12pt;
+    line-height: 1.8;
+}
+
+.fa-handshake-angle {
+    color: white;
+}
+
+.fa-utensils {
+    color: white;
+}
 
 @keyframes fadeIn {
     from {

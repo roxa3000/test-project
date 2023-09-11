@@ -212,11 +212,14 @@ header {
 
 }
 
-footer {
-
-    background-color: rgb(53, 53, 53);
-    padding: 20px;
+.logo-font {
+    font-family: 'Shrikhand', sans-serif;
+    color: white;
+    font-size: larger;
+    padding:10px;
 }
+
+
 
 header {
     display: flex;
@@ -226,14 +229,7 @@ header {
     margin-left: 0;
 }
 
-footer .logo-font {
-    color: white;
-    font-size: 15pt;
-}
 
-.logo-footer {
-    width: 120px;
-}
 
 #entrees {
     animation: fadeIn 4s;
@@ -251,15 +247,10 @@ footer .logo-font {
 
 .p-footer {
     color: white;
+    font-size: 12pt;
+    line-height: 2;
 }
 
-.fa-handshake-angle {
-    color: white;
-}
-
-.fa-utensils {
-    color: white;
-}
 
 .rest__heart {
     margin-left: 180px;
