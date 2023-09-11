@@ -165,6 +165,8 @@ p {
     margin-top: 5px;
     margin-left: 10px;
     color: grey;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 b {
