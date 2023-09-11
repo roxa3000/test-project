@@ -11,6 +11,10 @@
 
 }
 
+.food p {
+    width: 80%;
+}
+
 .fa-arrow-left {
     font-size: 15pt;
     position: absolute;
@@ -40,6 +44,11 @@
 .food:active .green-tick-container {
 
     animation: slideLeft 1s ease forwards;
+}
+
+.food:active p {
+    width: 60%;
+    transition: width 800ms ease;
 }
 
 .food:active .green-tick {
@@ -229,11 +238,13 @@ footer .logo-font {
 #entrees {
     animation: fadeIn 4s;
 }
-#main-dish{
+
+#main-dish {
     animation: fadeIn 4s;
     animation-delay: 0.5s;
 }
-#desserts{
+
+#desserts {
     animation: fadeIn 4s;
     animation-delay: 1s;
 }
@@ -290,7 +301,4 @@ footer .logo-font {
     }
 }
 
-@media only screen and (max-width: 800px) {
-
-
-}
+@media only screen and (max-width: 800px) {}

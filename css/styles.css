@@ -49,9 +49,6 @@ body {
 }
 
 
-
-:active .steps-number .steps__icon{ }
-
 .location {
     background-color: rgb(221, 221, 221);
     padding: 1px;
@@ -135,12 +132,6 @@ h1 {
 
 
 
-.fa-solid {
-
-    
-}
-
-
 
 .how-it-works {
     background-color: white;
@@ -191,6 +182,10 @@ h1 {
 
 }
 
+.p-caption {
+    margin-left: 20px;
+}
+
 .rest-caption {
     font-size: 14pt;
     margin-left: 20px;
@@ -213,6 +208,12 @@ h1 {
     margin: unset;
     padding: initial;
     margin-top: 5px;
+    margin-left: 15px;
+}
+
+.heart--icon {
+    right: 10px;
+    bottom: 30px;
 }
 
 .logo-top {
@@ -293,7 +294,4 @@ footer {
     }
 }
 
-@media only screen and (max-width: 800px) {
-
-
-}
+@media only screen and (max-width: 800px) {}

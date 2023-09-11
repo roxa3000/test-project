@@ -37,6 +37,12 @@ a {
     animation: fadeIn 1s linear forwards 1, fillUp 1s linear forwards;
 }
 
+p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 .rest-caption:active .heart--gradient {
     animation: fadeIn 1s linear forwards 1, fillUp 1s linear forwards;
 
@@ -58,7 +64,8 @@ a {
 .logo-font {
     font-family: 'Shrikhand', sans-serif;
     color: black;
-    margin-left: 0;}
+    margin-left: 0;
+}
 
 @keyframes fillUp {
     from {
@@ -87,7 +94,6 @@ a {
     text-align: center;
     position: relative;
     animation: fadeIn reverse 1s linear 1 forwards;
-    animation-timeline: 5s;
 
 }
 
